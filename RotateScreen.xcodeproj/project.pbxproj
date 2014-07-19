@@ -22,6 +22,7 @@
 		25BDD354197A39C0003D5427 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BDD333197A39C0003D5427 /* UIKit.framework */; };
 		25BDD35C197A39C0003D5427 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25BDD35A197A39C0003D5427 /* InfoPlist.strings */; };
 		25BDD35E197A39C0003D5427 /* RotateScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BDD35D197A39C0003D5427 /* RotateScreenTests.m */; };
+		25BDD369197A3A35003D5427 /* RSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BDD368197A3A35003D5427 /* RSNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		25BDD359197A39C0003D5427 /* RotateScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateScreenTests-Info.plist"; sourceTree = "<group>"; };
 		25BDD35B197A39C0003D5427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25BDD35D197A39C0003D5427 /* RotateScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateScreenTests.m; sourceTree = "<group>"; };
+		25BDD367197A3A35003D5427 /* RSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSNavigationController.h; sourceTree = "<group>"; };
+		25BDD368197A3A35003D5427 /* RSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				25BDD344197A39C0003D5427 /* Main_iPad.storyboard */,
 				25BDD347197A39C0003D5427 /* RSViewController.h */,
 				25BDD348197A39C0003D5427 /* RSViewController.m */,
+				25BDD367197A3A35003D5427 /* RSNavigationController.h */,
+				25BDD368197A3A35003D5427 /* RSNavigationController.m */,
 				25BDD34A197A39C0003D5427 /* Images.xcassets */,
 				25BDD336197A39C0003D5427 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BDD369197A3A35003D5427 /* RSNavigationController.m in Sources */,
 				25BDD33C197A39C0003D5427 /* main.m in Sources */,
 				25BDD340197A39C0003D5427 /* RSAppDelegate.m in Sources */,
 				25BDD349197A39C0003D5427 /* RSViewController.m in Sources */,
